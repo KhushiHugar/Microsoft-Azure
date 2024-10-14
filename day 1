@@ -1,0 +1,20 @@
+Here's a simplified version of what i have
+learned today:
+
+Search for virtual machines.
+Create a new virtual machine.
+In Subscription -> Resource group, name it (e.g., "vm_43").
+In Instance details, choose the region (e.g., "West US 3").
+In Administrator account, set username and password (e.g., "Password@123").
+In Image, select "Windows Server 2022 Datacenter: Azure Edition Hotpatch - x64 Gen2."
+Under Select inbound ports, pick HTTP (80) and RDP (3389).
+In Networking -> Virtual network, give any name.
+Review and create, then click Create.
+Go to resource after creation.
+Connect and download the RDP file.
+Run the RDP, then click Connect, Next, and Yes.
+Your VM is ready to open.
+In the VM, go to Server roles, select Web Server (IIS), and click Install.
+For starting or stopping services:
+
+Go to Server Manager -> Dashboard -> IIS, and you can manage your VM's services from there.
